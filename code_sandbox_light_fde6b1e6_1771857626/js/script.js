@@ -487,7 +487,7 @@
                     .catch(() => {
                         submitBtn.disabled = false;
                         submitBtn.innerHTML = originalHTML;
-                        alert("Une erreur est survenue lors de l'envoi de votre commande. Merci de réessayer, ou de nous appeler au 04 94 29 54 81.");
+                        alert("Une erreur est survenue lors de l'envoi de votre commande. Merci de réessayer, ou de nous appeler au 09 85 01 29 17.");
                     });
             });
         }
@@ -629,7 +629,7 @@
         'background: linear-gradient(135deg, #0F172A 0%, #3B82F6 100%); color: white; padding: 10px 20px; font-size: 16px; font-weight: bold; border-radius: 10px;'
     );
     console.log(
-        '%cSite développé avec ❤️ pour le meilleur pressing de Saint-Cyr-sur-Mer',
+        '%cSite développé avec ❤️ pour le meilleur pressing de Sanary-sur-Mer',
         'color: #3B82F6; font-size: 12px;'
     );
 
