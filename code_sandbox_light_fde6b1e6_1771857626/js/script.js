@@ -1,5 +1,5 @@
 // ==========================================
-// LAVABIO - JAVASCRIPT
+// PRESSING FLEUR DE MAI - JAVASCRIPT
 // Animations fluides 60fps & Fonctionnalités
 // ==========================================
 
@@ -487,7 +487,7 @@
                     .catch(() => {
                         submitBtn.disabled = false;
                         submitBtn.innerHTML = originalHTML;
-                        alert("Une erreur est survenue lors de l'envoi de votre commande. Merci de réessayer, ou de nous appeler au 06 51 13 05 37.");
+                        alert("Une erreur est survenue lors de l'envoi de votre commande. Merci de réessayer, ou de nous appeler au 04 94 29 54 81.");
                     });
             });
         }
@@ -582,7 +582,7 @@
         document.body.style.animation = 'rainbow 2s infinite';
         
         // Message secret
-        alert('🎉 Bravo ! Vous avez trouvé le code secret de Lavabio ! 🧥✨\n\n-20% sur votre prochaine visite avec le code: KONAMI2026');
+        alert('🎉 Bravo ! Vous avez trouvé le code secret de Pressing Fleur de Mai ! 🧥✨\n\n-20% sur votre prochaine visite avec le code: KONAMI2026');
         
         // Réinitialiser après 5 secondes
         setTimeout(() => {
@@ -625,7 +625,7 @@
 
     // === CONSOLE SIGNATURE ===
     console.log(
-        '%c🧥 Lavabio ',
+        '%c🧥 Pressing Fleur de Mai ',
         'background: linear-gradient(135deg, #0F172A 0%, #3B82F6 100%); color: white; padding: 10px 20px; font-size: 16px; font-weight: bold; border-radius: 10px;'
     );
     console.log(

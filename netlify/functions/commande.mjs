@@ -46,7 +46,7 @@ export default async (req) => {
   }
 
   const to = process.env.ORDER_EMAIL || 'romainfalanga83@gmail.com';
-  const from = process.env.ORDER_FROM || 'Commandes Lavabio <onboarding@resend.dev>';
+  const from = process.env.ORDER_FROM || 'Commandes Pressing Fleur de Mai <onboarding@resend.dev>';
 
   // Corps texte
   const qtyOf = (a) => (a.qtyText != null ? a.qtyText : 'x' + a.qty);
@@ -54,7 +54,7 @@ export default async (req) => {
     (a) => `- ${a.name} ${qtyOf(a)} : ${a.lineTotal}`
   );
   const text = [
-    'Nouvelle commande de livraison via le site Lavabio.',
+    'Nouvelle commande de livraison via le site Pressing Fleur de Mai.',
     '',
     'ARTICLES :',
     ...articlesTextLines,
